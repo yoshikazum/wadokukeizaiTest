@@ -16,6 +16,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
 
+
+
 public class WDKDBHelperTest extends AndroidTestCase {
 
   static final String TABLENAME = "dictionary";
@@ -35,7 +37,7 @@ public class WDKDBHelperTest extends AndroidTestCase {
     db = mDbHelper.openDatabase();
   }
 
-  public WDKDBHelperTest() {
+  public WDKDBHelperTest(){
     new WDKDBHelper(mContext);
   }
 
